@@ -67,11 +67,12 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Welcome, $email", Toast.LENGTH_SHORT).show()
                     val i = Intent(this, MainActivity::class.java)
                     startActivity(i)
+                    finish()
                 }else{
                     Toast.makeText(this, "Email isn't registered", Toast.LENGTH_SHORT).show()
-                    Intent(this, RegisterActivity::class.java)
+                    val i = Intent(this, RegisterActivity::class.java)
+                    startActivity(i)
                 }
-                finish()
             }
     }
 }

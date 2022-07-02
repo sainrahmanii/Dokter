@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37499170734",
+    "project_id": "dokter-app-a7f71",
+    "storage_bucket": "dokter-app-a7f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37499170734:android:2239847535f64c36e4223f",
+        "android_client_info": {
+          "package_name": "com.sain.dokterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37499170734-uets5v0rm8u8icefjbekev1s0heenq5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZTqnmpIdGwW2ZbRvu0JsG2Xwq5ANv9nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37499170734-uets5v0rm8u8icefjbekev1s0heenq5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

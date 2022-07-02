@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
                 binding.edtEmail.requestFocus()
                 return@setOnClickListener
             }
-            if (pass.length >8){
+            if (pass.length <8){
                 binding.edtPass.error = "Password kurang dari 8"
                 binding.edtPass.requestFocus()
                 return@setOnClickListener
